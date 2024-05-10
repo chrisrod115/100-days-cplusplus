@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/christopherrodriguez/Documents/GitHub/100-days-cplusplus/100DaysOfCode/Day_004_RockPaperScissors/rock_paper_scissors'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003C18, symSize: 0x194 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _ROCK, symObjAddr: 0x348, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x67, offset: 0x67, size: 0x8, addend: 0x0, symName: _PAPER, symObjAddr: 0x350, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offsetInCU: 0x7C, offset: 0x7C, size: 0x8, addend: 0x0, symName: _SCISSORS, symObjAddr: 0x358, symBinAddr: 0x100008010, symSize: 0x0 }
+  - { offsetInCU: 0x85, offset: 0x85, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003C18, symSize: 0x194 }
+...
