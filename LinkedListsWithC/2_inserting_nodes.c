@@ -12,6 +12,8 @@ void print_list(Node *head);
 
 Node *insert_at_head(Node *head, int new_value);
 
+Node *insert_at_head(Node *head, int new_value);
+
 int main()
 {
     Node *list1_head = NULL;

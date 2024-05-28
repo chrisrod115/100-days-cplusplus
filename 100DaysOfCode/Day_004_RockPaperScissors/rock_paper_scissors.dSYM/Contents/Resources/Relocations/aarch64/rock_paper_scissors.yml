@@ -2,9 +2,10 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/christopherrodriguez/Documents/GitHub/100-days-cplusplus/100DaysOfCode/Day_004_RockPaperScissors/rock_paper_scissors'
 relocations:
-  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003C18, symSize: 0x194 }
-  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _ROCK, symObjAddr: 0x348, symBinAddr: 0x100008000, symSize: 0x0 }
-  - { offsetInCU: 0x67, offset: 0x67, size: 0x8, addend: 0x0, symName: _PAPER, symObjAddr: 0x350, symBinAddr: 0x100008008, symSize: 0x0 }
-  - { offsetInCU: 0x7C, offset: 0x7C, size: 0x8, addend: 0x0, symName: _SCISSORS, symObjAddr: 0x358, symBinAddr: 0x100008010, symSize: 0x0 }
-  - { offsetInCU: 0x85, offset: 0x85, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003C18, symSize: 0x194 }
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003A6C, symSize: 0x180 }
+  - { offsetInCU: 0x6E, offset: 0x6E, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003A6C, symSize: 0x180 }
+  - { offsetInCU: 0xCE, offset: 0xCE, size: 0x8, addend: 0x0, symName: _rpc_to_string, symObjAddr: 0x180, symBinAddr: 0x100003BEC, symSize: 0x94 }
+  - { offsetInCU: 0xF6, offset: 0xF6, size: 0x8, addend: 0x0, symName: _determine_winner, symObjAddr: 0x214, symBinAddr: 0x100003C80, symSize: 0xC8 }
+  - { offsetInCU: 0x12C, offset: 0x12C, size: 0x8, addend: 0x0, symName: _get_user_choice, symObjAddr: 0x2DC, symBinAddr: 0x100003D48, symSize: 0xB0 }
+  - { offsetInCU: 0x154, offset: 0x154, size: 0x8, addend: 0x0, symName: _get_bot_choice, symObjAddr: 0x38C, symBinAddr: 0x100003DF8, symSize: 0x28 }
 ...
