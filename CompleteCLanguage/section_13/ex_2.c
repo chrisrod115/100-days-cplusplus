@@ -2,15 +2,15 @@
 
 int main() {
     int nums[3];
-    int i, min, max;
+    int i = 0, min = 0, max = 0;
 
     for (i = 0; i < 3; i++)
     {
-        printf("Enter integer: ");
+        printf("Enter num%d: ", i + 1);
         scanf("%d", &nums[i]);
     }
-
-    for (i = 0; i < 3; i++)
+    min = nums[0];
+    for (i = 0; i < (sizeof(nums)/sizeof(nums[0])); i ++)
     {
         if (nums[i] < min)
         {
@@ -21,9 +21,7 @@ int main() {
             max = nums[i];
         }
     }
-    // Print min and max values
-    printf("Minimum value: %d\n", min);
-    printf("Maximum value: %d\n", max);
 
+    printf("The max is: %d and the min is: %d", max, min);
     return 0;
 }

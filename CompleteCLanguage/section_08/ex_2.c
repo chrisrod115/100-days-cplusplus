@@ -1,21 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
-    int i, j;
-
-    for (i = 1; i <= 5; i++) 
+int main()
+{
+    for (int i = 1; i < 6; i ++)
     {
-        for (j = 1; j <= i; j++) 
+        for (int h = 1; h <= i; h++)
         {
-            printf("%d", j);
+            printf("%d", h);
         }
-        for (j = i + 1; j <= 10; j++) 
+        for (int j = 0; j < 10 - i; j ++)
         {
             printf("*");
         }
         printf("\n");
     }
-
     return 0;
 }

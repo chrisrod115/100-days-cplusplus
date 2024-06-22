@@ -3,17 +3,13 @@
 
 int main()
 {
-    float height, width, result;
-
-    printf("Enter rectangle height: ");
-    scanf("%f", &height);
-
-    printf("Enter rectangle width: ");
-    scanf("%f", &width);
-
-    result = height * width;
-    printf("The total area of you rectangle is: %.2f\n", result);
-    
-
+    for(int i = 0; i < 5; i++)
+    {
+        for (int j = 0; j < 10; j++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
     return 0;
 }

@@ -1,15 +1,12 @@
-//Made by Vlad. Budnitski.
-//AlphaTech - Programming Course.
 #include <stdio.h>
 
 int main()
 {
-	double height, width;
-	double perimeter;
-	printf("Enter height: ");
-	scanf("%lf", &height);
-	printf("Enter width: ");
-	scanf("%lf", &width);
-	perimeter = 2 * (height + width);
-	printf("The perimeter of this rectangle = %lf\n", perimeter);
+	int height = 0, width = 0;
+	printf("Enter a height: ");
+	scanf("%d", &height);
+	printf("Enter a width: ");
+	scanf("%d", &width);
+	printf("The area is: %d\n", (height*width));
+	return 0;	
 }
