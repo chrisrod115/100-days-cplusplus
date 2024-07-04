@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Fibonacci example: 1,1,2,3,5,8,13...
 int fibonacci(int index)
 {
-    int result;
     if (index == 0)
     {
         return 0;
@@ -14,17 +14,17 @@ int fibonacci(int index)
     }
     else
     {
-        return fibonacci(index - 1) + fibonacci(index - 2);
+        return fibonacci(index - 2) + fibonacci(index - 1);
     }
 }
 
 int main()
 {
-    int user_index = 0;
-    printf("Enter an number: ");
-    scanf("%d", &user_index); 
+    int u_index = 0, result = 0;
+    printf("\n\nEnter the user index: ");
+    scanf("%d", &u_index);
 
-    user_index = fibonacci(user_index);
-    printf("The fibonacci result is: %d\n", user_index); 
+    result = fibonacci(u_index);
+    printf("The number at index: %d return the corresponding fibonacci number: %d\n\n", u_index, result);
     return 0;
 }

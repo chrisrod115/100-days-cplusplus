@@ -1,0 +1,8 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/christopherrodriguez/Documents/GitHub/100-days-cplusplus/CompleteCLanguage/section_24/string_compare'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _custom_strcmp, symObjAddr: 0x0, symBinAddr: 0x100003D2C, symSize: 0x94 }
+  - { offsetInCU: 0x48, offset: 0x48, size: 0x8, addend: 0x0, symName: _custom_strcmp, symObjAddr: 0x0, symBinAddr: 0x100003D2C, symSize: 0x94 }
+  - { offsetInCU: 0x7E, offset: 0x7E, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x94, symBinAddr: 0x100003DC0, symSize: 0x120 }
+...
