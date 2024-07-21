@@ -10,9 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc4f4e4f-5979-4f4a-91cd-8a3859a99da9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/100DaysOfCode/Day_004_RockPaperScissors/rpc_logic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100DaysOfCode/Day_004_RockPaperScissors/rock_paper_scissors.c" beforeDir="false" afterPath="$PROJECT_DIR$/100DaysOfCode/Day_004_RockPaperScissors/rock_paper_scissors.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedListsWithC/2_inserting_nodes.c" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedListsWithC/2_inserting_nodes.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +33,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2giE4TRF2ojL70Dpqpsu3XXYuxX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -58,9 +56,14 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "structure.view.defaults.are.configured": "true",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "ObjectiveC"
+    ]
   }
 }]]></component>
-  <component name="RunManager" selected="Python.rpc_logic">
+  <component name="RunManager" selected="C/C++ File.scratch.cpp">
     <configuration name="100Days" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
@@ -68,6 +71,12 @@
     </configuration>
     <configuration name="2_inserting_nodes.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="100-days-cplusplus" TARGET_NAME="2_inserting_nodes.c" CONFIG_NAME="2_inserting_nodes.c">
       <option name="sourceFile" value="LinkedListsWithC/2_inserting_nodes.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="scratch.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="100-days-cplusplus" TARGET_NAME="scratch.cpp" CONFIG_NAME="scratch.cpp">
+      <option name="sourceFile" value="$APPLICATION_CONFIG_DIR$/scratches/scratch.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -96,10 +105,12 @@
     <list>
       <item itemvalue="C/C++ File.2_inserting_nodes.c" />
       <item itemvalue="C/C++ File.100Days" />
+      <item itemvalue="C/C++ File.scratch.cpp" />
       <item itemvalue="Python.rpc_logic" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.scratch.cpp" />
         <item itemvalue="Python.rpc_logic" />
       </list>
     </recent_temporary>
@@ -113,10 +124,32 @@
       <option name="presentableId" value="Default" />
       <updated>1716171806311</updated>
       <workItem from="1716171807429" duration="6586000" />
+      <workItem from="1721593281535" duration="1008000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch.cpp</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch.cpp</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch.cpp</url>
+          <line>6</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
