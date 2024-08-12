@@ -15,6 +15,8 @@ int main() {
     {
         printf("Original date: %d\n", date[i]);
         printf("Copied date: %d\n", date[i]);
+        printf("Original addy: %d\n", &date[i]);
+        printf("Copied addy: %d\n", &date[i]);
     }
     return 0;
 }

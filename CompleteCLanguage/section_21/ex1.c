@@ -17,7 +17,7 @@ int main() {
     {
         for (j = 1; j < SIZE; j++)
         {
-            printf("%5d", mat[i][j]);
+            printf("%d", mat[i][j]);
         }
         printf("\n");
     }
